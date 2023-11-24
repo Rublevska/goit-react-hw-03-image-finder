@@ -55,7 +55,7 @@ export class App extends Component {
 
   handleSubmit = newQuery => {
     if (!newQuery.trim()) {
-      return toast.error('Can not be empty');
+      return toast.error('Search query can not be empty');
     }
 
     this.setState({
